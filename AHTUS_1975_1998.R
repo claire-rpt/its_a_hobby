@@ -1,3 +1,5 @@
+#code to calculate average hours worked by employed mothers in 1975 and 1998 samples
+#unweighted average but removed low quality responses via RECWGHT>0
 library(tidyverse)
 library(ipumsr)
 
