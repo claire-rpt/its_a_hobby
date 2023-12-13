@@ -5,11 +5,11 @@ library(stats)
 state_fips <- read.csv("state_fips.csv")
 
 #load UCC data
-q1 <- read_sas("C:/Users/theto/Documents/Consumer_Expenditure/intrvw19/intrvw19/mtbi191x.sas7bdat")
-q2 <- read_sas("C:/Users/theto/Documents/Consumer_Expenditure/intrvw19/intrvw19/mtbi192.sas7bdat")
-q3 <- read_sas("C:/Users/theto/Documents/Consumer_Expenditure/intrvw19/intrvw19/mtbi193.sas7bdat")
-q4 <- read_sas("C:/Users/theto/Documents/Consumer_Expenditure/intrvw19/intrvw19/mtbi194.sas7bdat")
-q5 <- read_sas("C:/Users/theto/Documents/Consumer_Expenditure/intrvw19/intrvw19/mtbi201.sas7bdat")
+q1 <- read_sas("intrvw19/intrvw19/mtbi191x.sas7bdat")
+q2 <- read_sas("intrvw19/intrvw19/mtbi192.sas7bdat")
+q3 <- read_sas("intrvw19/intrvw19/mtbi193.sas7bdat")
+q4 <- read_sas("intrvw19/intrvw19/mtbi194.sas7bdat")
+q5 <- read_sas("intrvw19/intrvw19/mtbi201.sas7bdat")
 
 ucc_data <- rbind(q1,q2,q3,q4,q5)
 rm(q1,q2,q3,q4,q5)
